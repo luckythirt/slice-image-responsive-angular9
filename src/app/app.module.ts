@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ActivitiesComponent } from './activitites/activities.component';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -22,7 +21,6 @@ import { VideosComponent } from './videos/videos.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
